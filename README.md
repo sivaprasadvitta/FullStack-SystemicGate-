@@ -18,4 +18,4 @@
 
 # 5.phpmyAdmin
 
-![Screenshot 2](assets/Screenshot-6.png)
+![Screenshot 2](assets/Screenshot-5.png)
