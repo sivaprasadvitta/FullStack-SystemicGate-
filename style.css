@@ -1,0 +1,144 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: black; */
+    color: white;
+    
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+}
+
+.nav-bar img {
+    padding: 20px;
+}
+
+.nav-bar button {
+    border: none;
+    padding: 20px;
+    margin-right: 20px;
+    /* margin: 10px; */
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.nav-bar button:hover {
+    background-color: white;
+    color: black;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    width: 300px;
+    background-color: #dee2e6;
+    padding: 40px;
+    border-radius: 20px;
+    color: black;
+}
+
+.form .register-form {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+}
+.form .register-form input {
+    margin-bottom: 10px; 
+}
+
+.form .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form input {
+    outline: 0;
+    width: 100%;
+    border: 0;
+    font-size: 14px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.form .radio-btn {
+    display: flex;
+    gap: 10px;
+}
+
+.form button {
+    text-transform: uppercase;
+    outline: 0;
+    background: #333;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-radius: 30px;
+    /* font-size: 20px; */
+}
+
+.form button:hover {
+    background: white;
+    color: black;
+}
+
+.form .message {
+    font-size: 15px;
+}
+
+.form .message a {
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+
+
+
+
+.form .phone-input {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.form .phone-input select,
+.form .phone-input input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+.form .phone-input select {
+    width: auto;
+}
+
+.error-message{
+    background-color: red;
+    font-size: 15px;
+    margin-bottom: 10px;
+    display: block;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+/* for data display  page*/
